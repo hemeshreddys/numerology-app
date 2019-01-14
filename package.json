@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "http://hemeshreddys.github.io/numerology-app",
   "dependencies": {
-    "gh-pages": "^1.1.0",
+    "add": "^2.0.6",
+    "gh-pages": "^1.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-flip-move": "^3.0.3",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
