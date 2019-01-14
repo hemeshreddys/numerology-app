@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/numerology-app/static/css/main.70b2536b.chunk.css"
   },
   {
-    "revision": "77a4cd5bcc3723b84907997e721e0289",
+    "revision": "bca0203125efdb109431043cf8149504",
     "url": "/numerology-app/index.html"
   }
 ];
