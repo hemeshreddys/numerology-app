@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TodoItems from "./TodoItems";
 import "./TodoList.css";
+
 import List from './List'
 const filters = [{ property: 'name', value: 'ray' }]
 class TodoList extends Component {
@@ -84,8 +85,8 @@ class TodoList extends Component {
       <div className="todoListMain">
         <div className="header">
           <div style={{fontSize:"30px",color:"#fff"}}>NUMEROLOGY</div>
-          <div className="mainContainer">
-            <div className="innerContainer">
+          <div className="row mainContainer">
+            <div className="col-xs-12 innerContainer">
               <div style={{fontSize:"20px",color:"#fff"}}>Value : {this.state.inputNum}</div>
               <input value={this.state.inputVal.toUpperCase()} onChange={(e) => {this.onInputChange(e)}}  onKeyPress={this.handleTest} 
               placeholder="enter name">
