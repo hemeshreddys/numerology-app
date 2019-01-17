@@ -7,7 +7,6 @@ class TodoItems extends Component {
         this.createTasks = this.createTasks.bind(this);
       }
     createTasks(item) {
-      console.log(item)
         return <li onClick={() => this.delete(item.key)} 
         key={item.key}>{item.text} - {item.number} <span style={{position:"absolute",right:"15px",color:"#fff"}}>X</span></li>
       }
@@ -22,9 +21,9 @@ class TodoItems extends Component {
  
     return (
       <ul className="theList">
-      <FlipMove duration={250} easing="ease-out">
+        <FlipMove duration={250} easing="ease-out">
           {listItems}
-          </FlipMove>
+        </FlipMove>
       </ul>
     );
   }

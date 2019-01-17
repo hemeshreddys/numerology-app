@@ -86,7 +86,7 @@ class TodoList extends Component {
           <div className="row mainContainer">
             <div className="col-xs-12 innerContainer">
               <div style={{fontSize:"25px",color:"#fff"}}>Value : {this.state.inputNum}</div>
-              <input value={this.state.inputVal.toUpperCase()} onChange={(e) => {this.onInputChange(e)}}  onKeyPress={this.handleTest} 
+              <input style={{marginRight:"-10px"}} value={this.state.inputVal} onChange={(e) => {this.onInputChange(e)}}  onKeyPress={this.handleTest} 
               placeholder="enter name">
               </input>
               <button onClick={() => this.addItem()}>Shortlist</button>
