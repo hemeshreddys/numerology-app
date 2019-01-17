@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/numerology-app/precache-manifest.9feaf9bec6c186705a77d5240e5778f7.js"
+  "/numerology-app/precache-manifest.964b6905a79aa0bec894bf905b37744d.js"
 );
 
 workbox.clientsClaim();

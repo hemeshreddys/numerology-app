@@ -1,13 +1,13 @@
 {
-  "main.css": "/numerology-app/static/css/main.5290e230.chunk.css",
-  "main.js": "/numerology-app/static/js/main.918077fb.chunk.js",
-  "main.js.map": "/numerology-app/static/js/main.918077fb.chunk.js.map",
+  "main.css": "/numerology-app/static/css/main.616d5f2d.chunk.css",
+  "main.js": "/numerology-app/static/js/main.71c83728.chunk.js",
+  "main.js.map": "/numerology-app/static/js/main.71c83728.chunk.js.map",
   "static/js/1.e63aab64.chunk.js": "/numerology-app/static/js/1.e63aab64.chunk.js",
   "static/js/1.e63aab64.chunk.js.map": "/numerology-app/static/js/1.e63aab64.chunk.js.map",
   "runtime~main.js": "/numerology-app/static/js/runtime~main.0824cab5.js",
   "runtime~main.js.map": "/numerology-app/static/js/runtime~main.0824cab5.js.map",
-  "static/css/main.5290e230.chunk.css.map": "/numerology-app/static/css/main.5290e230.chunk.css.map",
+  "static/css/main.616d5f2d.chunk.css.map": "/numerology-app/static/css/main.616d5f2d.chunk.css.map",
   "index.html": "/numerology-app/index.html",
-  "precache-manifest.9feaf9bec6c186705a77d5240e5778f7.js": "/numerology-app/precache-manifest.9feaf9bec6c186705a77d5240e5778f7.js",
+  "precache-manifest.964b6905a79aa0bec894bf905b37744d.js": "/numerology-app/precache-manifest.964b6905a79aa0bec894bf905b37744d.js",
   "service-worker.js": "/numerology-app/service-worker.js"
 }
