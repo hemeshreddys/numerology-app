@@ -82,7 +82,7 @@ class TodoList extends Component {
     return (
       <div className="todoListMain">
         <div className="header">
-          <div style={{fontSize:"25px",color:"#fff"}}>NUMEROLOGY</div>
+          <div className="logo">NUMEROLOGY</div>
           <div className="row mainContainer">
             <div className="col-xs-12 innerContainer">
               <div style={{fontSize:"25px",color:"#fff"}}>Value : {this.state.inputNum}</div>

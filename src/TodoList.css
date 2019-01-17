@@ -53,6 +53,10 @@
     border:1px solid #fff;
     padding:40px;
     min-height: 100vh;
-    
+
   }
-  
+  .logo{
+    font-family: 'Coiny', cursive;
+    font-size:25px;
+    color:#fff;
+  }
