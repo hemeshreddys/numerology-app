@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/numerology-app/static/js/runtime~main.0824cab5.js"
   },
   {
-    "revision": "c3db4a54ade89b920cca",
-    "url": "/numerology-app/static/js/main.c3db4a54.chunk.js"
+    "revision": "2c4d2f808cbd12cb27aa",
+    "url": "/numerology-app/static/js/main.2c4d2f80.chunk.js"
   },
   {
     "revision": "e63aab64fdc5637cc63c",
     "url": "/numerology-app/static/js/1.e63aab64.chunk.js"
   },
   {
-    "revision": "c3db4a54ade89b920cca",
-    "url": "/numerology-app/static/css/main.eff3c9f6.chunk.css"
+    "revision": "2c4d2f808cbd12cb27aa",
+    "url": "/numerology-app/static/css/main.e8278c12.chunk.css"
   },
   {
-    "revision": "a35b3da4729b8f10008aa6bed00addf9",
+    "revision": "0336d10f253c5670a5141be1b4e30a49",
     "url": "/numerology-app/index.html"
   }
 ];
