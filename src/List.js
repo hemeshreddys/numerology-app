@@ -67,7 +67,7 @@ class List extends Component {
           {
             data.map(item => (
               <div key={item.id}>
-                <a href={`mailto:${item.email}`}>{item.name}</a> {item.company}
+                {item.name} :  {item.company}
               </div>
             ))
           }

@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import TodoItems from "./TodoItems";
 import "./TodoList.css";
 
-import List from './List'
-const filters = [{ property: 'name', value: 'ray' }]
 class TodoList extends Component {
   
     constructor(props) {
@@ -84,18 +82,17 @@ class TodoList extends Component {
     return (
       <div className="todoListMain">
         <div className="header">
-          <div style={{fontSize:"30px",color:"#fff"}}>NUMEROLOGY</div>
+          <div style={{fontSize:"25px",color:"#fff"}}>NUMEROLOGY</div>
           <div className="row mainContainer">
             <div className="col-xs-12 innerContainer">
-              <div style={{fontSize:"20px",color:"#fff"}}>Value : {this.state.inputNum}</div>
+              <div style={{fontSize:"25px",color:"#fff"}}>Value : {this.state.inputNum}</div>
               <input value={this.state.inputVal.toUpperCase()} onChange={(e) => {this.onInputChange(e)}}  onKeyPress={this.handleTest} 
               placeholder="enter name">
               </input>
-              <button onClick={() => this.addItem()}>add</button>
-              <div style={{color:"#fff"}}> Short listed names:</div>
+              <button onClick={() => this.addItem()}>Shortlist</button>
+              <div style={{color:"#fff"}}> Shortlisted names:</div>
               <TodoItems entries={this.state.items} delete={this.deleteItem}/>
             </div>
-          
           </div>
         </div>
       </div>
